@@ -58,6 +58,7 @@ PerformBoxPacking <- function (containers,
                                elitism_size,
                                crossover_prob,
                                mutation_prob,
+                               vertical_stacking = F,
                                verbose = FALSE,
                                plotSolution = FALSE) {
 
